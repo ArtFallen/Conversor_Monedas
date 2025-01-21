@@ -25,7 +25,7 @@ public class Principal {
                     ********************************************
                     """);
 
-            Integer opcion = scanner.nextInt();
+            int opcion = scanner.nextInt();
             if (opcion == 7) {
                 System.out.println("Gracias por usar el Conversor de Monedas. ¡Hasta pronto!");
                 break;
@@ -35,8 +35,7 @@ public class Principal {
             double valor = scanner.nextDouble();
 
             // Variables para los códigos de moneda
-            String codigoMonetario = "";
-            String codigoCambio = "";
+            String codigoMonetario,codigoCambio ;
 
             // Configuración de los códigos de moneda según la opción seleccionada
             switch (opcion) {
